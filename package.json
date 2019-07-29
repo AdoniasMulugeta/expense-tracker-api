@@ -1,0 +1,24 @@
+{
+  "name": "node-expense-tracker-api",
+  "version": "1.0.0",
+  "description": "an expense tracker api",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha ./test/*.js"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "chai": "^4.2.0",
+    "cors": "*",
+    "dotenv": "^8.0.0",
+    "express": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "save-dev": "^2.0.0"
+  },
+  "devDependencies": {
+    "morgan": "*"
+  },
+  "author": "Adonias Mulugeta",
+  "license": "ISC"
+}
